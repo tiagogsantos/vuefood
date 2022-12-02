@@ -1,0 +1,26 @@
+<template>
+  <div class="">
+      <ul>
+        <li><router-link :to="{name: 'home'}">Home</router-link></li>
+        <li><router-link :to="{name: 'products'}">Produtos</router-link></li>
+        <li><router-link :to="{name: 'cart'}">Carrinho</router-link></li>
+      </ul>
+  </div>
+</template>
+
+<!-- Importação de Bootstrap -->
+<script>
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+export default {
+
+}
+</script>
+
+<style scoped>
+
+@import url('../assets/css/vuefood.css');
+@import url('../assets/css/reset.css');
+
+</style>
