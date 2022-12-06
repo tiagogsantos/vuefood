@@ -1,13 +1,8 @@
 <template>
-  <div class="">
-    <header-component></header-component>
-
+  <div>
     <div class="container container-body">
       <router-view></router-view>
     </div>
-
-    <footer-component></footer-component>
-
   </div>
 </template>
 
@@ -28,8 +23,8 @@ export default {
 
 <style scoped>
 
-@import url('../assets/css/vuefood.css');
 @import url('../assets/css/reset.css');
+@import url('../assets/css/auth.css');
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 </style>
